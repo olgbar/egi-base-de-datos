@@ -1,0 +1,277 @@
+[{
+	"_id": {
+		"$oid": "6846f2ac8e5d720395841289"
+	},
+	"nombre": "Cabañas del Lago",
+	"tipoProyecto": "Industrial",
+	"ubicacion": {
+		"pais": "Argentina",
+		"provincia": "Mendoza",
+		"ciudad": "Potrerillos",
+		"direccion": "Ruta 82, Km 50"
+	},
+	"potenciaProyecto": 150,
+	"tipoInstalacion": "Off-grid",
+	"fechaInicio": {
+		"$date": "2024-08-15T00:00:00Z"
+	},
+	"fechaFin": {
+		"$date": "2024-09-30T00:00:00Z"
+	},
+	"estado": "completado",
+	"cliente": {
+		"nombre": "Juan",
+		"apellido": "Pérez",
+		"nick": "1234567",
+		"telefono": "123456789",
+		"email": "juanperez@gmail.com",
+		"direccion": "Calle Falsa 123"
+	},
+	"listaMateriales": [
+		{
+			"canalizacion": [
+				{
+					"tipo": "PVC",
+					"color": "blanco",
+					"longitud": 10.5
+				},
+				{
+					"tipo": "Metálico",
+					"color": "gris",
+					"longitud": 5.2
+				}
+			],
+			"cajas": [
+				{
+					"tipo": "Rectangular",
+					"material": 1,
+					"forma": "Cuadrada"
+				}
+			]
+		}
+	],
+	"analisisTecnico": [
+		{
+			"consumo": {
+				"tipoArtefacto": "AC",
+				"nombreArtefacto": "Refrigerador",
+				"cantidadArtefacto": 1
+			}
+		}
+	]
+},
+{
+	"_id": {
+		"$oid": "6846f9618e5d72039584128d"
+	},
+	"nombre": "Casa Solar Las Lomas",
+	"tipoProyecto": "Domiciliario",
+	"ubicacion": {
+		"pais": "Argentina",
+		"provincia": "Buenos Aires",
+		"ciudad": "San Isidro",
+		"direccion": "Calle Los Alamos 1234"
+	},
+	"potenciaProyecto": 5,
+	"tipoInstalacion": "Off-grid",
+	"fechaInicio": {
+		"$date": "2024-05-10T00:00:00Z"
+	},
+	"fechaFin": {
+		"$date": "2024-06-20T00:00:00Z"
+	},
+	"estado": "completado",
+	"cliente": {
+		"nombre": "María",
+		"apellido": "González",
+		"nick": "mg2024",
+		"telefono": "987654321",
+		"email": "maria.gonzalez@gmail.com",
+		"direccion": "Av. Libertador 5678"
+	},
+	"listaMateriales": [
+		{
+			"canalizacion": [
+				{
+					"tipo": "PVC",
+					"color": "blanco",
+					"longitud": 8.4
+				},
+				{
+					"tipo": "Flexible",
+					"color": "negro",
+					"longitud": 3.5
+				}
+			],
+			"cajas": [
+				{
+					"tipo": "Octogonal",
+					"material": 2,
+					"forma": "Redonda"
+				}
+			]
+		}
+	],
+	"analisisTecnico": [
+		{
+			"consumo": {
+				"tipoArtefacto": "DC",
+				"nombreArtefacto": "Lámparas LED",
+				"cantidadArtefacto": 10
+			}
+		}
+	]
+},
+{
+	"_id": {
+		"$oid": "6846f9e58e5d720395841290"
+	},
+	"nombre": "Bombeo Solar Agrícola",
+	"tipoProyecto": "Bombeo solar",
+	"ubicacion": {
+		"pais": "Argentina",
+		"provincia": "Córdoba",
+		"ciudad": "Jesús María",
+		"direccion": "Ruta 9, Km 120"
+	},
+	"potenciaProyecto": 20,
+	"tipoInstalacion": "Híbrida",
+	"fechaInicio": {
+		"$date": "2024-07-01T00:00:00Z"
+	},
+	"fechaFin": {
+		"$date": "2024-08-30T00:00:00Z"
+	},
+	"estado": "en_progreso",
+	"cliente": {
+		"nombre": "Carlos",
+		"apellido": "López",
+		"nick": "clopez",
+		"telefono": "555123456",
+		"email": "carlos.lopez@empresa.com",
+		"direccion": "Hacienda Los Álamos"
+	},
+	"listaMateriales": [
+		{
+			"canalizacion": [
+				{
+					"tipo": "Metálico",
+					"color": "gris",
+					"longitud": 15.6
+				}
+			],
+			"cajas": [
+				{
+					"tipo": "Rectangular",
+					"material": 1,
+					"forma": "Rectangular"
+				}
+			],
+			"tableros": [
+				{
+					"tipo": "Principal",
+					"gabinete": "Acero",
+					"calibreAProteger": "100A",
+					"cantidadStrings": 4
+				}
+			]
+		}
+	],
+	"analisisTecnico": [
+		{
+			"consumo": {
+				"tipoArtefacto": "DC",
+				"nombreArtefacto": "Bomba sumergible",
+				"cantidadArtefacto": 2
+			},
+			"calculoHSP": {
+				"provincia": "Córdoba",
+				"mes": "Julio",
+				"inclinacion": 25.2,
+				"hsp": 4.8
+			}
+		}
+	]
+},
+{
+	"_id": {
+		"$oid": "6846fa2b8e5d720395841292"
+	},
+	"nombre": "Centro Comercial Solar",
+	"tipoProyecto": "Industrial",
+	"ubicacion": {
+		"pais": "Argentina",
+		"provincia": "Santa Fe",
+		"ciudad": "Rosario",
+		"direccion": "Av. Pellegrini 2000"
+	},
+	"potenciaProyecto": 80,
+	"tipoInstalacion": "On-grid",
+	"fechaInicio": {
+		"$date": "2024-09-01T00:00:00Z"
+	},
+	"fechaFin": {
+		"$date": "2024-11-15T00:00:00Z"
+	},
+	"estado": "planificado",
+	"cliente": {
+		"nombre": "Empresa",
+		"apellido": "Solar S.A.",
+		"nick": "solarSA",
+		"telefono": "341987654",
+		"email": "contacto@solarsa.com",
+		"direccion": "Parque Industrial Rosario"
+	},
+	"listaMateriales": [
+		{
+			"canalizacion": [
+				{
+					"tipo": "PVC",
+					"color": "blanco",
+					"longitud": 30.5
+				},
+				{
+					"tipo": "Metálico",
+					"color": "gris",
+					"longitud": 20.7
+				}
+			],
+			"cajas": [
+				{
+					"tipo": "Rectangular",
+					"material": 1,
+					"forma": "Cuadrada"
+				},
+				{
+					"tipo": "Octogonal",
+					"material": 2,
+					"forma": "Redonda"
+				}
+			],
+			"tableros": [
+				{
+					"tipo": "Distribución",
+					"gabinete": "Acero",
+					"calibreAProteger": "200A",
+					"cantidadStrings": 8
+				}
+			]
+		}
+	],
+	"analisisTecnico": [
+		{
+			"consumo": {
+				"tipoArtefacto": "AC",
+				"nombreArtefacto": "Split 3000W",
+				"cantidadArtefacto": 15
+			},
+			"calculoHSP": {
+				"provincia": "Santa Fe",
+				"mes": "Noviembre",
+				"inclinacion": 30.5,
+				"hsp": 5.2
+			}
+		}
+	]
+}]
+
